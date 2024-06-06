@@ -1,21 +1,27 @@
-body {
-    font-family: Arial, sans-serif;
+/* Reset default browser styles */
+* {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: white;
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-color: #f4f4f4;
+    width: 100vw;
 }
 
 .container {
     display: flex;
-    width: 80%;
+    width: 100%;
     max-width: 1200px;
+    height: 100%;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    background-color: #fff;
-    overflow: hidden;
+    background-color: white;
 }
 
 .sidebar {
@@ -52,7 +58,6 @@ body {
     width: 70%;
     padding: 20px;
     overflow-y: auto;
-    height: 100vh;
 }
 
 .project {
